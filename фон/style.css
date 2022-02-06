@@ -1,0 +1,30 @@
+body {
+    background-color: darkgray;
+}
+
+
+.post {
+    color: white;
+    background-image: url("bg-img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 700px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px 25px;
+    border: 1px solid red;
+}
+
+
+.post-title {
+    margin: 0 0 20px 0;
+    color: blue;
+}
+
+
+.post-text p {
+    margin: 0 0 10px 0;
+
+}
