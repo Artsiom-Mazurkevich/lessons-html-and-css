@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    background-color: #575656;
+}
+
+
+
+/*auth*/
+
+.auth {
+    width: 260px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+}
+
+.authTitle {
+    margin: 0 0 15px;
+    font-size: 20px;
+    color: midnightblue;
+    text-align: center;
+}
+
+
+/*input*/
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.input {
+    display: block;
+    background-color: white;
+    font-family: inherit;
+    font-size: inherit;
+    width: 238px;
+    padding: 8px 10px;
+    border: 1px solid #cccccc;
+}
+
+.input:focus {
+   outline: 0;
+    border-color: #287cf6;
+}
+
+
+
+.select {
+    display: block;
+    background-color: white;
+    width: 260px;
+    border: 1px solid #cccccc;
+    font-family: inherit;
+    font-size: 15px;
+    height: 35px;
+}
+
+.select:focus {
+    outline: 0;
+    border-color: #287cf6;
+}
+
+
+.btn {
+    display: block;
+    width: 260px;
+    padding: 10px 10px;
+    color: white;
+    border: 0;
+    background-color: #287cf6;
+    font-family: inherit;
+    font-size: 15px;
+    transition: 0.2s;
+    border-radius: 5px;
+}
+
+.btn:focus {
+    outline: 0;
+}
+
+.btn:hover,
+.btn:focus{
+    background-color: #0445a4;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.btn:active {
+    background-color: #033277;
+}
