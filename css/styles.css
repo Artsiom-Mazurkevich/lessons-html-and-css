@@ -1,0 +1,30 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+
+.main {
+    display: flex;
+    width: 500px;
+    height: 500px;
+    margin: 50px auto;
+    border: 1px solid gray;
+    border-radius: 8px;
+}
+
+.first {
+    width: 49%;
+    background-color: green;
+
+}
+.second {
+    width: 49%;
+    background-color: yellow;
+}
+
+.split {
+    width: 2%;
+    background-color: red;
+}
