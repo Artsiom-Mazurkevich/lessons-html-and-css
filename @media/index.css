@@ -1,0 +1,48 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: #eee;
+    padding: 1rem;
+}
+
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-item {
+    height: 100px;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: #1a6eec;
+}
+
+
+@media (max-width: 900px) {
+    .container {
+        background-color: #575656;
+    }
+    .flex-item {
+        flex-basis: 100%;
+    }
+}
+
