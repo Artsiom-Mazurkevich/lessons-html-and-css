@@ -1,0 +1,21 @@
+.navbar {
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #0f1028;
+}
+
+.navbar__link {
+    color: #eeeeee;
+    text-decoration: none;
+    transition: color 200ms ease-in-out;
+    line-height: 30px;
+    font-size: 1.3rem;
+    font-weight: 700;
+
+}
+
+.navbar__link:hover {
+    color: #b30abe;
+}
