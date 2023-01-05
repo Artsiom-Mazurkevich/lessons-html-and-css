@@ -11,6 +11,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-size: 16px;
     font-family: 'Circe', 'sans-serif';
@@ -19,6 +23,8 @@ body {
 }
 
 button {
+    font-family: inherit;
+    font-size: inherit;
     outline: none !important;
 }
 

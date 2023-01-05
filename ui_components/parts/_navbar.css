@@ -1,4 +1,6 @@
 .navbar {
+    position: sticky;
+    top: 50px;
     display: flex;
     flex-flow: column nowrap;
     padding: 20px;
